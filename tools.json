@@ -290,13 +290,13 @@
    "id": "v0",
    "name": "v0 by Vercel",
    "category": "tier3",
-   "free_limit": "Small daily generation allowance",
+   "free_limit": "Free credit allowance (~$5 usage); paid from $30/mo",
    "generosity": "limited",
    "durability": "vc",
    "card_required": false,
    "commercial_use_ok": true,
    "trains_on_your_code": null,
-   "gotchas": "Demo-grade; UI/layout focus",
+   "gotchas": "Metering model changed across 2025-26 - verify at pricing page",
    "source": "https://v0.dev/pricing",
    "last_verified": "2026-08-04",
    "status": "corroborated"
@@ -675,6 +675,21 @@
    "source": "https://github.com/tashfeenahmed/freellmapi",
    "last_verified": "2026-08-04",
    "status": "corroborated"
+  },
+  {
+   "id": "rocket",
+   "name": "Rocket",
+   "category": "tier3",
+   "free_limit": "20 free credits; Stripe billing, auth, multi-tenant built in",
+   "generosity": "limited",
+   "durability": "vc",
+   "card_required": false,
+   "commercial_use_ok": true,
+   "trains_on_your_code": null,
+   "gotchas": "Paid from $25/mo",
+   "source": "https://rocket.new",
+   "last_verified": "2026-08-04",
+   "status": "unverified"
   }
  ]
 }

@@ -168,8 +168,9 @@ Enough to evaluate, not enough to build on.
 
 | Tool | Free tier | Verified |
 |---|---|---|
-| [v0](https://v0.dev) | ~handful of daily generations — UI/layout demos | ✅ |
-| [Lovable](https://lovable.dev) | ~30 credits/mo, then $25/mo | ⏳ |
+| [v0](https://v0.dev) | Free credit allowance (~$5 usage), paid from $30/mo. ⚠️ Metering model changed across 2025–26 — verify at pricing page | ⏳ |
+| [Lovable](https://lovable.dev) | 30 credits/mo (5/day cap), then from $25/mo | ✅ |
+| [Rocket](https://rocket.new) | 20 free credits; Stripe billing, auth, multi-tenant built in; paid from $25/mo | ⏳ |
 | [Base44](https://base44.com) | 25 message credits/mo (Wix-owned), Starter $16/mo | ✅ |
 | [Replit](https://replit.com) | Starter tier, credits burn fast | ✅ |
 | [Tencent Cloud Studio](https://cloudstudio.net) | ~1,000 points/mo 🌍 | ⏳ |
