@@ -645,6 +645,36 @@
    "replaces": "Tableau / Looker",
    "cost_avoided_usd_mo_min": 75,
    "cost_avoided_usd_mo_max": 500
+  },
+  {
+   "id": "pr-agent",
+   "name": "PR-Agent",
+   "category": "tier0",
+   "free_limit": "Tool free forever (BYOK)",
+   "generosity": "truly_free",
+   "durability": "oss",
+   "card_required": false,
+   "commercial_use_ok": true,
+   "trains_on_your_code": false,
+   "gotchas": "Upstream OSS project of Qodo's commercial offering",
+   "source": "https://github.com/The-PR-Agent/pr-agent",
+   "last_verified": "2026-08-04",
+   "status": "corroborated"
+  },
+  {
+   "id": "freellmapi",
+   "name": "freellmapi",
+   "category": "meta",
+   "free_limit": "OSS proxy stacking 28 providers' free tiers behind one OpenAI-compatible endpoint",
+   "generosity": "truly_free",
+   "durability": "oss",
+   "card_required": false,
+   "commercial_use_ok": false,
+   "trains_on_your_code": null,
+   "gotchas": "~4B tokens/mo headline is theoretical-ceiling math (~2B documented recurring ecosystem-wide); proxy-stacking violates several providers' ToS",
+   "source": "https://github.com/tashfeenahmed/freellmapi",
+   "last_verified": "2026-08-04",
+   "status": "corroborated"
   }
  ]
 }

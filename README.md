@@ -22,6 +22,21 @@ This repo fights rot with three rules:
 
 Since early 2026, OpenAI, Anthropic, and Google have restricted flagship reasoning models to paid tiers; free tiers now get lighter models (GPT-5.5 Instant-class, Claude Haiku/Sonnet-class, Gemini Flash-class). Hyperscaler *always-free services* remain the most durable free compute; VC-subsidized startup free tiers and promo programs are the most volatile — several died mid-2026. Plan accordingly: build on OSS + BYOK where possible, treat hosted free tiers as scaffolding.
 
+## ⚡ Quickstart — the $0 stack in 3 steps
+
+```bash
+# 1. Install a free, open-source coding agent in VS Code
+code --install-extension saoudrizwan.claude-dev   # Cline
+
+# 2. Get a free API key (no card): https://aistudio.google.com/apikey
+#    Point Cline at it: Settings → API Provider → Google Gemini → paste key
+
+# 3. Deploy what you build, free:
+npm create cloudflare@latest    # → Cloudflare Pages/Workers, 100K req/day
+```
+
+Working agent, free frontier-adjacent model, free hosting — $0, no card, ~5 minutes. Full rotation strategy in [The $0 Pipeline](#the-0-pipeline-rotation-playbook).
+
 ## Legend
 
 | Badge | Meaning |
@@ -59,6 +74,7 @@ Pay $0 for the tool forever. Bring your own model (free or paid).
 | [Twinny](https://github.com/twinnydotdev/twinny) | VS Code + local models | MIT | 🟢 Ollama-native completions | ⏳ |
 | [PearAI](https://github.com/trypear/pearai-app) / [Void](https://github.com/voideditor/void) | OSS IDEs | Apache-2.0 | 🟢 Cursor alternatives | ⏳ |
 | [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) | CLI scaffolder | MIT | 🟢 Spec → codebase | ⏳ |
+| [PR-Agent](https://github.com/The-PR-Agent/pr-agent) | PR review agent | OSS | 🟢 Self-host answer to paid review bots (upstream of Qodo) | ✅ |
 
 **Local models:** [Ollama](https://ollama.com) + open weights (Qwen-Coder, DeepSeek-Coder, IBM Granite (Apache-2.0), Llama, Mistral) = zero token cost if your hardware can carry it.
 
@@ -237,6 +253,7 @@ Open-source software that replaces a SaaS bill. Check GitHub before you buy — 
 
 - [onWatch](https://github.com/onwatch) — quota tracking across providers ⏳ · vibe-kanban · Task Master
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute) — free-tier aggregation gateway. ⚠️ Routing providers through proxies violates several providers' ToS — read their own wiki's warnings first.
+- [freellmapi](https://github.com/tashfeenahmed/freellmapi) — OpenAI-compatible proxy stacking 28 providers' free tiers behind one `/v1` endpoint. ⚠️ Twice-flagged: the "~4B tokens/month" headline is theoretical-ceiling math (documented recurring across the ecosystem is closer to ~2B — see honest accounting, rule 2), and proxy-stacking free tiers sits in the ToS gray-to-red zone for many of the 28 providers. Popular (17k+ ⭐), so listed — with eyes open.
 
 ## The $0 Pipeline (Rotation Playbook)
 
@@ -257,6 +274,8 @@ Idea → deployed, no card required:
 - [easy-vibe](https://github.com/datawhalechina/easy-vibe) — full vibe-coding course, 10 languages
 - [OmniRoute Free-Tiers wiki](https://github.com/diegosouzapw/OmniRoute/wiki/Free-Tiers) — 98-provider API audit
 - [ShaikhWarsi/free-ai-tools](https://github.com/ShaikhWarsi/free-ai-tools) — broad free AI tools list
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 100+ runnable agent/RAG templates: *what to build*; this repo is *what to build it with for $0* — our [Tier 1 backends](#tier-1--free-api-backends-byok-fuel) power those templates free
+- [stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) · [heroku-free-alternatives](https://github.com/meanands/heroku-free-alternatives) — adjacent free-tier lists
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) · freetiers.com · freestuff.dev · tolop.vercel.app
 
 ## Contributing
@@ -266,3 +285,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). Short version: pricing-page receipts re
 ## License
 
 [CC BY 4.0](LICENSE) — share and adapt freely, attribution to DarkDataLabs required.
+
+---
+
+⭐ **Star this repo to catch free-tier changes before they bite you** — the [CHANGELOG](CHANGELOG.md) tracks every tightening, and the [Graveyard](GRAVEYARD.md) grows every year.
