@@ -1,0 +1,28 @@
+name: "⚰️ Graveyard report"
+description: "A tool or free tier has died"
+title: "[Graveyard] "
+labels: ["graveyard"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Tool / free tier
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date of death (or announcement date)
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL (official announcement, docs change, or credible report)
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: "Grandfathering for existing users? Migration path?"

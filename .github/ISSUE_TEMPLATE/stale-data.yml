@@ -1,0 +1,24 @@
+name: "⏳ Stale data report"
+description: "A limit, price, or status in the list is out of date"
+title: "[Stale] "
+labels: ["stale"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Tool / entry
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed
+      placeholder: "Old value → new value"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: New receipt URL (pricing/docs page)
+    validations:
+      required: true

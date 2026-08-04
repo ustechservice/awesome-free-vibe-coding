@@ -1,0 +1,57 @@
+name: "🆕 New tool submission"
+description: "Submit a free tool / free tier for the list"
+title: "[Tool] "
+labels: ["new-tool"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [tier0, byok_api, foundation, hyperscaler, tier2, tier3, student, deploy, business, subscription_killer, supporting, meta]
+    validations:
+      required: true
+  - type: input
+    id: limits
+    attributes:
+      label: Documented recurring free limits
+      description: "Recurring limits only — no one-time credits presented as recurring, no theoretical ceilings"
+      placeholder: "e.g. 2,000 completions + 50 chat/mo"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Pricing/docs page URL (receipt)
+      description: "Official pricing or docs page. Announcement blog posts are NOT accepted as sources."
+    validations:
+      required: true
+  - type: checkboxes
+    id: facets
+    attributes:
+      label: Facets
+      options:
+        - label: Credit card required
+        - label: Commercial use allowed
+        - label: Trains on your code/data (or unknown — note in gotchas)
+  - type: textarea
+    id: gotchas
+    attributes:
+      label: TOS gotchas / fine print
+      placeholder: "Production-use prohibitions, expiring credits, telemetry, idle reclamation, regional blocks…"
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Submission rules
+      options:
+        - label: The free tier is genuinely recurring/permanent (not a trial) — or I clearly labeled it as a trial/promo
+          required: true
+        - label: My receipt link is a pricing/docs page, not an announcement post
+          required: true
+        - label: I am not affiliated with this vendor, or I have disclosed my affiliation above
+          required: true

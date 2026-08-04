@@ -1,0 +1,20 @@
+name: Link check
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # weekly, Monday 06:00 UTC
+  pull_request:
+    paths: ['**.md', 'tools.json']
+  workflow_dispatch:
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,203,206,301,302,403,429 './**/*.md' './tools.json'
+          fail: false
+      - name: Open issue on dead links (scheduled runs)
+        if: github.event_name == 'schedule' && env.lychee_exit_code != '0'
+        run: echo "Dead links found — see lychee report artifact"

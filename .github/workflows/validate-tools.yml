@@ -1,0 +1,37 @@
+name: Validate tools.json
+on:
+  push:
+    paths: [tools.json]
+  pull_request:
+    paths: [tools.json]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON + schema fields
+        run: |
+          python3 - <<'EOF'
+          import json, sys
+          d = json.load(open('tools.json', encoding='utf-8'))
+          req = ["id","name","category","free_limit","generosity","durability",
+                 "card_required","commercial_use_ok","trains_on_your_code",
+                 "gotchas","source","last_verified","status"]
+          cats = {"tier0","byok_api","foundation","hyperscaler","tier2","tier3",
+                  "student","deploy","business","subscription_killer","supporting","meta"}
+          gens = {"truly_free","generous","moderate","limited"}
+          stats = {"verified","corroborated","unverified","dead"}
+          ids = set(); errs = []
+          for t in d["tools"]:
+              for k in req:
+                  if k not in t: errs.append(f"{t.get('id','?')}: missing {k}")
+              if t["id"] in ids: errs.append(f"duplicate id {t['id']}")
+              ids.add(t["id"])
+              if t.get("category") not in cats: errs.append(f"{t['id']}: bad category")
+              if t.get("generosity") not in gens: errs.append(f"{t['id']}: bad generosity")
+              if t.get("status") not in stats: errs.append(f"{t['id']}: bad status")
+              if not str(t.get("source","")).startswith("http"): errs.append(f"{t['id']}: source must be a URL")
+          if errs:
+              print("\n".join(errs)); sys.exit(1)
+          print(f"OK: {len(d['tools'])} tools validated")
+          EOF

@@ -1,4 +1,4 @@
-# awesome-free-vibe-coding
+# awesome-free-vibe-coding [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > **free-for.dev, but for vibe coding** — verified free tiers, real limits, TOS gotchas, and student-offer tracking for AI-assisted development.
 

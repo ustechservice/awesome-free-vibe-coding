@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 General question / discussion
+    url: https://github.com/ustechservice/awesome-free-vibe-coding/discussions
+    about: For anything that isn't a tool submission, stale-data report, or graveyard report
