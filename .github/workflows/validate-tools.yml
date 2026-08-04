@@ -34,4 +34,7 @@ jobs:
           if errs:
               print("\n".join(errs)); sys.exit(1)
           print(f"OK: {len(d['tools'])} tools validated")
+          lo = sum(t.get('cost_avoided_usd_mo_min',0) for t in d['tools'] if t['category']=='subscription_killer')
+          hi = sum(t.get('cost_avoided_usd_mo_max',0) for t in d['tools'] if t['category']=='subscription_killer')
+          print(f"Subscription Killers displaced: ${lo}-{hi}/mo (update README if this changed)")
           EOF

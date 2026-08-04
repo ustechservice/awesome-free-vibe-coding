@@ -204,25 +204,27 @@ Per category: best hosted, best self-host, and the boring default. New entries m
 
 ## The Subscription Killers
 
-Open-source software that replaces a SaaS bill. Check GitHub before you buy — own the pipeline, rent only the irreplaceable.
+Open-source software that replaces a SaaS bill. Check GitHub before you buy — own the pipeline, rent only the irreplaceable. License matters (AGPL vs fair-code vs MIT changes what you can do commercially) and so does footprint — a Pi-class Go binary and a 3GB container stack are different commitments.
 
-| OSS | Replaces | Typical cost avoided (USD/mo) |
-|---|---|---|
-| [Twenty](https://github.com/twentyhq/twenty) | Salesforce / HubSpot CRM | $25–100/seat |
-| [n8n](https://github.com/n8n-io/n8n) | Zapier | $30–100 |
-| [Formbricks](https://github.com/formbricks/formbricks) / [OpnForm](https://github.com/JhumanJ/OpnForm) | Typeform | $29 |
-| [Cal.com](https://github.com/calcom/cal.com) | Calendly | $12 |
-| [Plausible](https://github.com/plausible/analytics) / [Umami](https://github.com/umami-software/umami) | Paid analytics | $9–19 |
-| [Chatwoot](https://github.com/chatwoot/chatwoot) | Intercom / Zendesk | $39+/seat |
-| [Listmonk](https://github.com/knadh/listmonk) | Mailchimp | $20–100 |
-| [Documenso](https://github.com/documenso/documenso) | DocuSign | $15 |
-| [Invoice Ninja](https://github.com/invoiceninja/invoiceninja) | FreshBooks | $19 |
-| [NocoDB](https://github.com/nocodb/nocodb) | Airtable | $20/seat |
-| [Supabase](https://github.com/supabase/supabase) / [PocketBase](https://github.com/pocketbase/pocketbase) | Firebase paid | varies |
-| [Uptime Kuma](https://github.com/louislam/uptime-kuma) | Pingdom | $15 |
-| [Metabase](https://github.com/metabase/metabase) | Tableau / Looker | $$$ |
+| OSS | Replaces | Cost avoided (USD/mo) | License | ~RAM |
+|---|---|---|---|---|
+| [Twenty](https://github.com/twentyhq/twenty) | Salesforce / HubSpot CRM | $25–100/seat | AGPL-3.0 | 2GB |
+| [n8n](https://github.com/n8n-io/n8n) | Zapier | $30–100 | Fair-code ⚠️ | 768MB |
+| [Formbricks](https://github.com/formbricks/formbricks) / [OpnForm](https://github.com/JhumanJ/OpnForm) | Typeform | $29 | AGPL-3.0 | ~1GB |
+| [Cal.com](https://github.com/calcom/cal.com) | Calendly | $12 | AGPL-3.0 | 1–2GB |
+| [Plausible](https://github.com/plausible/analytics) / [Umami](https://github.com/umami-software/umami) | Paid analytics | $9–19 | AGPL-3.0 / MIT | 2GB / 384MB |
+| [Chatwoot](https://github.com/chatwoot/chatwoot) | Intercom / Zendesk | $39–100/seat | MIT | 2GB |
+| [Listmonk](https://github.com/knadh/listmonk) | Mailchimp | $20–100 | AGPL-3.0 | 96MB 🥧 |
+| [Documenso](https://github.com/documenso/documenso) | DocuSign | $15–25 | AGPL-3.0 | 1GB |
+| [Invoice Ninja](https://github.com/invoiceninja/invoiceninja) | FreshBooks | $19–30 | Elastic 2.0 ⚠️ | 768MB |
+| [NocoDB](https://github.com/nocodb/nocodb) | Airtable | $20/seat | AGPL-3.0 | 512MB |
+| [Supabase](https://github.com/supabase/supabase) / [PocketBase](https://github.com/pocketbase/pocketbase) | Firebase paid | $25–50 | Apache-2.0 / MIT | 3GB / 64MB 🥧 |
+| [Uptime Kuma](https://github.com/louislam/uptime-kuma) | Pingdom | $15 | MIT | 256MB |
+| [Metabase](https://github.com/metabase/metabase) | Tableau / Looker | $75–500 | AGPL-3.0 | 2GB |
 
-**This table deletes roughly $300–500/mo of SaaS.** Long tail → [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted).
+🥧 = Pi-class (runs on a Raspberry Pi or the smallest free VM) · ⚠️ = not OSI-approved open source — fine to self-host for your own use, restrictions apply to reselling it as a service · RAM figures are rough self-host baselines, not benchmarks.
+
+**Total displaced: $321–1,088/mo** — computed from `tools.json` (single-seat, low-end paid plans; paired alternatives counted once). Long tail → [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted).
 
 ## Supporting Stack
 
