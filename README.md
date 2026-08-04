@@ -154,7 +154,7 @@ The durable free compute. 🏛️ = subsidized by cloud revenue, not VC burn —
 
 | Tool | Free tier | Effective lifespan / burn | Verified |
 |---|---|---|---|
-| [Bolt](https://bolt.new) | ~300K tokens/day, 1M/mo, free hosting | ⚠️ Syncs whole project per message — 50-file app ≈ 200K tokens/prompt | ✅ |
+| [Bolt](https://bolt.new) | 300K tokens/day, 1M/mo, free hosting | ⚠️ Syncs whole project per message — 50-file app ≈ 200K tokens/prompt; daily tokens don't roll over | 🧾 |
 | [Cursor](https://cursor.com) Hobby | Limited agent requests + tab completion (in-house model) | Frontier models need Pro $20/mo | ✅ |
 | [Trae](https://trae.ai) | Free access to frontier models | ⚠️ ByteDance — evaluate data routing for client/compliance work | ✅ |
 | [Windsurf / Devin Desktop](https://windsurf.com) | ~25 credits/mo | 🎢 pricing changed 3× in a year | ✅ |
@@ -168,7 +168,7 @@ Enough to evaluate, not enough to build on.
 
 | Tool | Free tier | Verified |
 |---|---|---|
-| [v0](https://v0.dev) | Free credit allowance (~$5 usage), paid from $30/mo. ⚠️ Metering model changed across 2025–26 — verify at pricing page | ⏳ |
+| [v0](https://v0.dev) | $5 in monthly credits (resets each cycle); Premium $20/mo, Team $30/user | ✅ |
 | [Lovable](https://lovable.dev) | 30 credits/mo (5/day cap), then from $25/mo | ✅ |
 | [Rocket](https://rocket.new) | 20 free credits; Stripe billing, auth, multi-tenant built in; paid from $25/mo | ⏳ |
 | [Base44](https://base44.com) | 25 message credits/mo (Wix-owned), Starter $16/mo | ✅ |
