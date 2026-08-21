@@ -172,7 +172,7 @@ Enough to evaluate, not enough to build on.
 | [Lovable](https://lovable.dev) | 30 credits/mo (5/day cap), then from $25/mo | ✅ |
 | [Rocket](https://rocket.new) | 20 free credits; Stripe billing, auth, multi-tenant built in; paid from $25/mo | ⏳ |
 | [Base44](https://base44.com) | 25 message credits/mo (Wix-owned), Starter $16/mo | ✅ |
-| [Replit](https://replit.com) | Starter tier, credits burn fast | ✅ |
+| [Replit](https://replit.com) | Starter tier, credits burn fast. ⚠️ "Free Mode" (Aug 19, 2026) is NOT a free tier — unmetered routine work *for paid subscribers* ($20/mo Core+, GPT-5.6, limits reset every 5 hrs); the actual free plan is unchanged | ✅ |
 | [Tencent Cloud Studio](https://cloudstudio.net) | ~1,000 points/mo 🌍 | ⏳ |
 | [Baidu Comate](https://comate.baidu.com) | ~500 agent dialogues/mo 🌍 | ⏳ |
 
@@ -277,6 +277,10 @@ Idea → deployed, no card required:
 - [ShaikhWarsi/free-ai-tools](https://github.com/ShaikhWarsi/free-ai-tools) — broad free AI tools list
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 100+ runnable agent/RAG templates: *what to build*; this repo is *what to build it with for $0* — our [Tier 1 backends](#tier-1--free-api-backends-byok-fuel) power those templates free
 - [stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) · [heroku-free-alternatives](https://github.com/meanands/heroku-free-alternatives) — adjacent free-tier lists
+- [ClawLabsAI/free-ai-models](https://github.com/ClawLabsAI/free-ai-models) — auto-generated daily free-model tracker (OpenRouter API). Good for model IDs; rate limits thin, ZeroLimitAI-affiliated
+- [12britz/awesome-free-models](https://github.com/12britz/awesome-free-models) — broad models/local-inference list (CC0). Wide but shallow — no tier limits; verify pricing here
+- [CYBIRD-D/FREE-LLM-API-Provider](https://github.com/CYBIRD-D/FREE-LLM-API-Provider) — free LLM APIs with CN-platform coverage Western lists miss
+- [eudk/awesome-edu-deals](https://github.com/eudk/awesome-edu-deals) — broad student/edu software deals (no status tracking — see our [student board](#student--edu-offers) for AI-coding offers)
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) · freetiers.com · freestuff.dev · tolop.vercel.app
 
 ## Contributing

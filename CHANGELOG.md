@@ -4,6 +4,7 @@ Dated tracker of tier changes across the ecosystem. Tightenings and expansions b
 
 ## 2026
 
+- **Aug 19** - Replit launched "Free Mode": unmetered routine tasks for *paid* Core/Pro subscribers (GPT-5.6-powered, limits reset every 5 hrs). Not a free tier despite the name - expect listicles to misreport it.
 - **Jul** — Straico shut down (Jul 22)
 - **Jun** — Cursor closed free student year to new signups (Jun 25) · Gemini CLI free OAuth tier deprecated for non-enterprise (Jun 18) · Windsurf student offer ended with Devin Desktop rebrand
 - **May** — Amazon Q Developer discontinued for new signups (May 15)
