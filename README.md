@@ -115,7 +115,7 @@ Pair these with Tier 0 tools for a genuinely $0 pipeline. **Deep reference:** [O
 | [NVIDIA NIM](https://build.nvidia.com) | Permanent free key, 70–100+ models | Rate-limited | ✅ |
 | [Groq](https://groq.com) | Free tier, very fast inference | ⚠️ No resale/proxy per ToS | ✅ |
 | [Cerebras](https://cloud.cerebras.ai) | ~1M tokens/day free | | ✅ |
-| [OpenRouter](https://openrouter.ai) | :free models: 50 req/day, 20 req/min | 💰 One-time \ credit purchase = 1,000 req/day forever (lifetime unlock, survives \ balance). ⚠️ Failed requests count against quota | 🧾 |
+| [OpenRouter](https://openrouter.ai) | :free models: 50 req/day, 20 req/min | 💰 One-time $10 credit purchase = 1,000 req/day forever (lifetime unlock, survives $0 balance). ⚠️ Failed requests count against quota | 🧾 |
 | [GitHub Models](https://github.com/marketplace/models) | Free playground + API to frontier models | Rate-limited by tier | ⏳ |
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | 10K neurons/day | 🏛️ | ✅ |
 | [GLM / Zhipu](https://open.bigmodel.cn) | GLM-4-Flash free API | 🌍 | ⏳ |
