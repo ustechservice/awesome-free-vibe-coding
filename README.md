@@ -1,6 +1,6 @@
 # awesome-free-vibe-coding [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> **free-for.dev, but for vibe coding** — verified free tiers, real limits, TOS gotchas, and student-offer tracking for AI-assisted development.
+> **Verified free tiers for vibe coding** — real limits, TOS gotchas, student-offer tracking, and the open source that replaces your SaaS stack. Receipts required.
 
 **Tool count: see [`tools.json`](tools.json)** — the headline number here always equals `jq length tools.json`. No "550+" marketing math.
 
