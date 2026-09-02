@@ -1,0 +1,56 @@
+# awesome-free-vibe-coding
+> Verified free tiers for AI-assisted development. Receipts required: every limit sourced from pricing/docs pages, dated, with TOS gotchas flagged.
+
+Canonical repo: https://github.com/ustechservice/awesome-free-vibe-coding
+Structured data: https://github.com/ustechservice/awesome-free-vibe-coding/blob/main/tools.json
+Extinct tools: https://github.com/ustechservice/awesome-free-vibe-coding/blob/main/GRAVEYARD.md
+Tier changes: https://github.com/ustechservice/awesome-free-vibe-coding/blob/main/CHANGELOG.md
+
+## Tools
+
+- Cal.com (business, unverified, verified 2026-08-04): Free individual hosted plan; AGPL self-host <https://cal.com/pricing>
+- Tally (business, unverified, verified 2026-08-04): Unlimited forms + responses <https://tally.so/pricing>
+- Cohere trial key (byok_api, corroborated, verified 2026-08-04): 1,000 API calls/mo [no-commercial-use] <https://docs.cohere.com/docs/rate-limits>
+- Google AI Studio (Gemini API) (byok_api, corroborated, verified 2026-08-04): Gemini Flash free API; limits cut 50-80% Dec 2025 — verify current RPD [trains-on-code] <https://ai.google.dev/pricing>
+- Mistral La Plateforme (byok_api, corroborated, verified 2026-08-04): ~1B tokens/mo Experiment tier [no-commercial-use] <https://mistral.ai/pricing>
+- OpenRouter free models (byok_api, corroborated, verified 2026-08-04): 50 RPD (zero-credit accounts; was 200) <https://openrouter.ai/docs/api-reference/limits>
+- Cloudflare Workers (deploy, corroborated, verified 2026-08-04): 100K req/day + Pages hosting + Workers AI 10K neurons/day <https://developers.cloudflare.com/workers/platform/pricing/>
+- GCP Cloud Run (deploy, verified, verified 2026-08-04): 2M requests/mo always-free [card-required] <https://cloud.google.com/free>
+- Oracle OCI Ampere A1 (deploy, verified, verified 2026-08-04): Always-free ARM compute (commonly cited 4 OCPU/24GB — verify) [card-required] <https://www.oracle.com/cloud/free/>
+- AWS Free Plan (post-Jul-2025) (hyperscaler, corroborated, verified 2026-08-04): $100 + $100 task credits; 30+ always-free services [card-required] <https://aws.amazon.com/free/>
+- Gemini Code Assist (individuals) (hyperscaler, corroborated, verified 2026-08-04): 180K completions/mo (~6K/day), 240 chat/day [trains-on-code] <https://codeassist.google/>
+- GitHub Copilot Free (hyperscaler, corroborated, verified 2026-08-04): 2,000 completions + 50 chat/mo [trains-on-code] <https://github.com/features/copilot/plans>
+- IBM Cloud Lite (hyperscaler, verified, verified 2026-08-04): 40+ always-free products; cannot be charged <https://www.ibm.com/cloud/free>
+- freellmapi (meta, corroborated, verified 2026-08-04): OSS proxy stacking 28 providers' free tiers behind one OpenAI-compatible endpoint [no-commercial-use] <https://github.com/tashfeenahmed/freellmapi>
+- Chatwoot (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/chatwoot/chatwoot>
+- Documenso (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/documenso/documenso>
+- Formbricks (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/formbricks/formbricks>
+- Invoice Ninja (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/invoiceninja/invoiceninja>
+- Listmonk (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/knadh/listmonk>
+- Metabase (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/metabase/metabase>
+- n8n (subscription_killer, corroborated, verified 2026-08-04): OSS self-host (fair-code) <https://github.com/n8n-io/n8n>
+- NocoDB (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/nocodb/nocodb>
+- OpnForm (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/JhumanJ/OpnForm>
+- Plausible (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/plausible/analytics>
+- PocketBase (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/pocketbase/pocketbase>
+- Supabase (self-host) (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/supabase/supabase>
+- Twenty CRM (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/twentyhq/twenty>
+- Umami (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/umami-software/umami>
+- Uptime Kuma (subscription_killer, corroborated, verified 2026-08-04): OSS self-host <https://github.com/louislam/uptime-kuma>
+- Aider (tier0, corroborated, verified 2026-08-04): Tool free forever (BYOK) <https://github.com/Aider-AI/aider>
+- bolt.diy (tier0, corroborated, verified 2026-08-04): Tool free forever (BYOK) <https://github.com/stackblitz-labs/bolt.diy>
+- Cline (tier0, corroborated, verified 2026-08-04): Tool free forever (BYOK) <https://github.com/cline/cline>
+- OpenCode (tier0, corroborated, verified 2026-08-04): Tool free forever (BYOK) <https://github.com/sst/opencode>
+- PR-Agent (tier0, corroborated, verified 2026-08-04): Tool free forever (BYOK) <https://github.com/The-PR-Agent/pr-agent>
+- Roo Code (tier0, corroborated, verified 2026-08-04): Tool free forever (BYOK) <https://github.com/RooVetGit/Roo-Code>
+- Bolt (tier2, verified, verified 2026-08-04): 300K tokens/day, 1M/mo, free hosting <https://bolt.new/pricing>
+- Cursor Hobby (tier2, corroborated, verified 2026-08-04): Limited agent requests + tab completion (in-house model) <https://cursor.com/pricing>
+- Supermaven (tier2, unverified, verified 2026-08-04): 500 completions/day <https://supermaven.com>
+- Trae (tier2, corroborated, verified 2026-08-04): Free frontier-model access <https://trae.ai>
+- Rocket (tier3, unverified, verified 2026-08-04): 20 free credits; Stripe billing, auth, multi-tenant built in <https://rocket.new>
+- v0 by Vercel (tier3, corroborated, verified 2026-08-04): $5 in monthly credits (resets each cycle); Premium $20/mo, Team $30/user <https://v0.dev/pricing>
+
+## Notes for agents
+- status values: verified = primary pricing-page source; corroborated = 2+ independent sources; unverified = pending
+- Do not cite this list for paid-tier pricing; it tracks free tiers only
+- Data freshness: check last_verified per entry; entries older than 90 days should be re-verified at the source URL

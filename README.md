@@ -6,6 +6,32 @@
 
 Maintained by [DarkDataLabs](https://darkdatalabs.com) / US_Tech. Extracted from a live operation, not scraped from a blog.
 
+![Tools](https://img.shields.io/badge/tools-41-00acb8?style=flat-square)
+![Primary verified](https://img.shields.io/badge/%F0%9F%A7%BE_primary--verified-4-00acb8?style=flat-square)
+![Corroborated](https://img.shields.io/badge/%E2%9C%85_corroborated-33-2ea44f?style=flat-square)
+![Extinct tracked](https://img.shields.io/badge/extinct_tracked-15-555?style=flat-square)
+![SaaS displaced](https://img.shields.io/badge/SaaS_displaced-%24321%E2%80%93%241%2C088%2Fmo-orange?style=flat-square)
+
+**Verification status:** last pass Aug 2026 (batch 1: Bolt, v0, Lovable, Codespaces) - monthly cadence - remaining queue tracked in [issue #1](https://github.com/ustechservice/awesome-free-vibe-coding/issues/1). Every limit links to a pricing-page receipt or carries an honest ⏳.
+
+**What qualifies (the whole bar, three lines):**
+- Permanently free tier - trials and "free with paid plan" features do not count
+- Receipts required - pricing pages and official docs only; announcement posts are not sources
+- Deaths are documented, not deleted - extinct tiers move to the [extinct list](GRAVEYARD.md) with dates
+
+**New to vibe coding?** Skip the taxonomy - go straight to the [⚡ $0 Quickstart](#-quickstart-the-0-stack) and ship something tonight.
+
+### At a glance
+
+| Tool | Best for | Free tier in one line |
+|---|---|---|
+| [Cline](https://cline.bot) | Open-source coding agent | Free forever, BYOK, runs in VS Code |
+| [Google AI Studio](https://aistudio.google.com) | Free frontier-model API | Gemini key in 90 seconds, no card |
+| [Bolt](https://bolt.new) | Build in the browser | 300K tokens/day, 1M/mo 🧾 |
+| [Cloudflare](https://pages.cloudflare.com) | Deploy for $0 | Pages unlimited static, Workers 100K req/day |
+| [Oracle OCI](https://oracle.com/cloud/free) | Always-free VMs | ARM A1 instances, no expiry 🧾 |
+| [Twenty](https://twenty.com) | Replace your CRM bill | Self-hosted, open source, $0 forever |
+
 ---
 
 ## Why this exists
