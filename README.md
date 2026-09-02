@@ -128,6 +128,20 @@ Pair these with Tier 0 tools for a genuinely $0 pipeline. **Deep reference:** [O
 
 ⚠️ **Community norm: don't abuse these.** Proxying, key-pooling, and resale get tiers killed for everyone — 19+ providers already have explicit personal-use/anti-proxy clauses.
 
+### 💰 The cheap permanent unlocks
+
+A pattern most lists miss: several providers run **cumulative-spend tier ladders** - your *lifetime* deposits, not your balance, set your rate limits. One small top-up permanently promotes the account. The cheapest upgrades in AI:
+
+| Provider | The unlock | Status |
+|---|---|---|
+| [OpenRouter](https://openrouter.ai) | One-time $10 credit purchase: 50 -> 1,000 free-model req/day, forever. Survives a $0 balance | 🧾 |
+| [OpenAI API](https://platform.openai.com/docs/guides/rate-limits) | First ~$5 lifetime spend promotes to Tier 1 limits; further tiers by cumulative spend | ⏳ verify thresholds |
+| [Anthropic API](https://docs.claude.com) | Deposit-based tier ladder - first deposit permanently lifts rate limits | ⏳ verify thresholds |
+| [Gemini API](https://ai.google.dev/gemini-api/docs/rate-limits) | Adjacent pattern: *enabling billing* (no spend) promotes free-tier limits to Tier 1 | ⏳ verify |
+| [Together AI](https://www.together.ai) / [Fireworks](https://fireworks.ai) | Build-tier ladders keyed to cumulative spend | ⏳ verify |
+
+Rule of thumb: if you're hitting rate limits on a free tier, check whether the provider's limits are keyed to lifetime spend before you architect around the ceiling - the fix may cost $5, once.
+
 ## Foundation Models & Chat Platforms
 
 Vibe coding in a chat/canvas UI — no IDE required.
