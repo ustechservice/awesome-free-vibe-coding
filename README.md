@@ -119,8 +119,8 @@ Pair these with Tier 0 tools for a genuinely $0 pipeline. **Deep reference:** [O
 | [GitHub Models](https://github.com/marketplace/models) | Free playground + API to frontier models | Rate-limited by tier | ⏳ |
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | 10K neurons/day | 🏛️ | ✅ |
 | [GLM / Zhipu](https://open.bigmodel.cn) | GLM-4-Flash free API | 🌍 | ⏳ |
-| LongCat | 5M tokens/day | 🌍 | ⏳ |
-| Tencent Hunyuan-lite / iFlytek Spark Lite | Permanently free | 🌍 | ✅ |
+| [LongCat](https://longcat.chat/platform/docs/) | 5M tokens/day (Flash-Chat); Flash-Lite API currently unlimited, 50M/day free tier announced Feb 2026 | 🌍 | ⏳ |
+| [Tencent Hunyuan-lite](https://cloud.tencent.com/product/hunyuan) / [iFlytek Spark Lite](https://xinghuo.xfyun.cn/sparkapi) | Permanently free | 🌍 | ✅ |
 | [watsonx.ai Lite](https://www.ibm.com/products/watsonx-ai) | Free Lite instance; 1 RU = 1,000 tokens | ⚠️ One Lite instance per account; tuning/GPU excluded; no auto-charge | 🧾 |
 | [Cohere](https://cohere.com) | 1,000 API calls/mo trial key | ⚠️ **Production use prohibited in ToS** | ✅ |
 | [Anthropic](https://console.anthropic.com) | Limited free trial credits (since Mar 2026) | One-time, not recurring | ⏳ |
