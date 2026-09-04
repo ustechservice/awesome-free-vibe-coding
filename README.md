@@ -101,6 +101,7 @@ Pay $0 for the tool forever. Bring your own model (free or paid).
 | [PearAI](https://github.com/trypear/pearai-app) / [Void](https://github.com/voideditor/void) | OSS IDEs | Apache-2.0 | 🟢 Cursor alternatives | ⏳ |
 | [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) | CLI scaffolder | MIT | 🟢 Spec → codebase | ⏳ |
 | [PR-Agent](https://github.com/The-PR-Agent/pr-agent) | PR review agent | OSS | 🟢 Self-host answer to paid review bots (upstream of Qodo) | ✅ |
+| [Superagent](https://github.com/pungme/superagent-desktop) | macOS agent environment | MIT | 🟢 Gives Claude Code/Codex a real browser and iOS Simulator, BYOK | ⏳ |
 
 **Local models:** [Ollama](https://ollama.com) + open weights (Qwen-Coder, DeepSeek-Coder, IBM Granite (Apache-2.0), Llama, Mistral) = zero token cost if your hardware can carry it.
 
