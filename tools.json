@@ -662,6 +662,21 @@
    "status": "corroborated"
   },
   {
+   "id": "superagent",
+   "name": "Superagent",
+   "category": "tier0",
+   "free_limit": "Tool free forever, MIT, BYOK",
+   "generosity": "truly_free",
+   "durability": "oss",
+   "card_required": false,
+   "commercial_use_ok": true,
+   "trains_on_your_code": false,
+   "gotchas": "macOS only",
+   "source": "https://github.com/pungme/superagent-desktop",
+   "last_verified": "2026-09-04",
+   "status": "unverified"
+  },
+  {
    "id": "freellmapi",
    "name": "freellmapi",
    "category": "meta",
