@@ -6,7 +6,7 @@
 
 Maintained by [DarkDataLabs](https://darkdatalabs.com) / US_Tech. Extracted from a live operation, not scraped from a blog.
 
-![Tools](https://img.shields.io/badge/tools-41-00acb8?style=flat-square)
+![Tools](https://img.shields.io/badge/tools-42-00acb8?style=flat-square)
 ![Primary verified](https://img.shields.io/badge/%F0%9F%A7%BE_primary--verified-4-00acb8?style=flat-square)
 ![Corroborated](https://img.shields.io/badge/%E2%9C%85_corroborated-33-2ea44f?style=flat-square)
 ![Extinct tracked](https://img.shields.io/badge/extinct_tracked-15-555?style=flat-square)
@@ -292,6 +292,7 @@ Open-source software that replaces a SaaS bill. Check GitHub before you buy — 
 
 ## Meta-Tools
 
+- [NextReset](https://nextreset.ai/) — free Codex reset-history and official AI-service incident resource. Personal timers stay in the browser; it does not read account usage. Verified 2026-09-18.
 - [onWatch](https://github.com/onwatch) — quota tracking across providers ⏳ · vibe-kanban · Task Master
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute) — free-tier aggregation gateway. ⚠️ Routing providers through proxies violates several providers' ToS — read their own wiki's warnings first.
 - [freellmapi](https://github.com/tashfeenahmed/freellmapi) — OpenAI-compatible proxy stacking 28 providers' free tiers behind one `/v1` endpoint. ⚠️ Twice-flagged: the "~4B tokens/month" headline is theoretical-ceiling math (documented recurring across the ecosystem is closer to ~2B — see honest accounting, rule 2), and proxy-stacking free tiers sits in the ToS gray-to-red zone for many of the 28 providers. Popular (17k+ ⭐), so listed — with eyes open.
