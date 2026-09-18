@@ -662,6 +662,21 @@
    "status": "corroborated"
   },
   {
+   "id": "nextreset",
+   "name": "NextReset",
+   "category": "meta",
+   "free_limit": "Free browser resource; no account required",
+   "generosity": "truly_free",
+   "durability": "vc",
+   "card_required": false,
+   "commercial_use_ok": true,
+   "trains_on_your_code": false,
+   "gotchas": "Independent resource; public reset forecasts are not guarantees and it does not read private account usage",
+   "source": "https://nextreset.ai/",
+   "last_verified": "2026-09-18",
+   "status": "verified"
+  },
+  {
    "id": "freellmapi",
    "name": "freellmapi",
    "category": "meta",
